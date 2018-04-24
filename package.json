@@ -1,5 +1,7 @@
 {
   "name": "spread_your_talent",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
