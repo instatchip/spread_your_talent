@@ -2,6 +2,127 @@
 # yarn lockfile v1
 
 
-jquery@^3.3.1:
+bootstrap-3-typeahead@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/bootstrap-3-typeahead/-/bootstrap-3-typeahead-4.0.2.tgz#cb1c969044856862096fc8c71cc21b3acbb50412"
+
+bootstrap-datepicker@^1.7.1:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-datepicker/-/bootstrap-datepicker-1.8.0.tgz#c63513931e6f09f16ae9f11b62f32d950df3958e"
+  dependencies:
+    jquery ">=1.7.1 <4.0.0"
+
+bootstrap-select@^1.13.0-beta:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.1.tgz#f59c02926fb5ac6356b9d1cdbc5384c2f013d9ba"
+
+bootstrap-table@^1.12:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/bootstrap-table/-/bootstrap-table-1.12.1.tgz#c9c3973067842a937c05d8639ecccb02abd6ba65"
+
+bootstrap@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
+
+codemirror-spell-checker@*:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/codemirror-spell-checker/-/codemirror-spell-checker-1.1.2.tgz#1c660f9089483ccb5113b9ba9ca19c3f4993371e"
+  dependencies:
+    typo-js "*"
+
+codemirror@*:
+  version "5.37.0"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.37.0.tgz#c349b584e158f590277f26d37c2469a6bc538036"
+
+"commander@>= 0.5.2":
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
+
+docco@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/docco/-/docco-0.6.3.tgz#c47b5823d79563d6fc3abd49f3de48986e5522ee"
+  dependencies:
+    commander ">= 0.5.2"
+    fs-extra ">= 0.6.0"
+    highlight.js ">= 8.0.x"
+    marked ">= 0.2.7"
+    underscore ">= 1.0.0"
+
+"fs-extra@>= 0.6.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
+geocomplete@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/geocomplete/-/geocomplete-1.7.0.tgz#c244765c853575261b5ee016f75b77cd382e4a1e"
+  dependencies:
+    docco "^0.6.3"
+    uglifyjs "^2.3.6"
+
+google-charts@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/google-charts/-/google-charts-1.1.0.tgz#d785ee9397bab07a3db069e986a845057935ecd8"
+
+graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+"highlight.js@>= 8.0.x":
+  version "9.12.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
+
+"jquery@>=1.7.1 <4.0.0", jquery@>=1.8.0, jquery@^3.2.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+marked@*, "marked@>= 0.2.7":
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
+
+moment@^2.19.1:
+  version "2.22.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
+
+parsleyjs@^2.8.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/parsleyjs/-/parsleyjs-2.8.1.tgz#a04abf91c2146475e6d4d5404b45940ad6fbb8a4"
+  dependencies:
+    jquery ">=1.8.0"
+
+popper.js@^1.12.3:
+  version "1.14.3"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.3.tgz#1438f98d046acf7b4d78cd502bf418ac64d4f095"
+
+simplemde@^1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/simplemde/-/simplemde-1.11.2.tgz#a23a35d978d2c40ef07dec008c92f070d8e080e3"
+  dependencies:
+    codemirror "*"
+    codemirror-spell-checker "*"
+    marked "*"
+
+typo-js@*:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/typo-js/-/typo-js-1.0.3.tgz#54d8ebc7949f1a7810908b6002c6841526c99d5a"
+
+uglifyjs@^2.3.6:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/uglifyjs/-/uglifyjs-2.4.11.tgz#3440d64e045759589524418eb641c68bb90d113e"
+
+"underscore@>= 1.0.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.0.tgz#31dbb314cfcc88f169cd3692d9149d81a00a73e4"
+
+universalify@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"
